@@ -1,0 +1,56 @@
+.Escribir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .5s;
+    box-shadow: 3px 3px 5px rgba(219, 216, 216, 0.3);
+}
+
+.Escribir:hover{
+    box-shadow: .2px .2px 2px 2px rgb(51, 54, 229);
+}
+
+::placeholder{
+    color: rgba(51, 36, 36, 0.408);
+}
+
+.entrada-tarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.boton-et {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #174676;
+    color: rgb(243, 243, 243);
+    border-radius: 40px;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.boton-et:hover{
+    box-shadow: .2px .2px 2px 2px chartreuse;
+    color: chartreuse;
+}

@@ -1,0 +1,28 @@
+.boton-delete{
+    font-size: 19px;
+    padding-bottom: 3px;
+    color: rgb(255, 255, 255);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.boton-delete:hover{
+   border-color: rgb(190, 89, 89);
+   color: rgb(181, 63, 63);
+}
+

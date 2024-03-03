@@ -1,0 +1,24 @@
+.danro-titular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+        
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo{
+    font-style: italic;
+}
+
+.titulo img{
+    height: 5rem;
+    width: 5rem;
+}
